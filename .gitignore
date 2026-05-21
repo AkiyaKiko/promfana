@@ -1,0 +1,6 @@
+# Volume
+prometheus_data/
+grafana_data/
+
+# YAML
+*.yml
