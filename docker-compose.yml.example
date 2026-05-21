@@ -11,7 +11,7 @@ services:
     command:
       - "--config.file=/etc/prometheus/prometheus.yml"
       - "--storage.tsdb.path=/prometheus"
-      - "--storage.tsdb.retention.time=15d"
+      - "--storage.tsdb.retention.time=30d"
       - "--storage.tsdb.retention.size=5GB"
       - "--web.enable-lifecycle"
     depends_on:
