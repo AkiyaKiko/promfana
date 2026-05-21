@@ -1,7 +1,0 @@
-# Volume
-prometheus_data/
-grafana_data/
-
-#YAML
-docker-compose.yml
-prometheus.yml
